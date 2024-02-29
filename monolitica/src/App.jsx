@@ -17,7 +17,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Mi App Monolitica</h1>
+        <h1 className="font-bold text-4xl p-4">Mi App Monolitica</h1>
+        <br/>
         <TodoList todos={todos} addTodo={addTodo} removeTodo={removeTodo} />
       </div>
     </>
